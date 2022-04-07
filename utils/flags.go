@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/urfave/cli"
+	"github.com/codegangsta/cli"
 	"github.com/fatih/structs"
 	"github.com/yudai/hcl"
 
