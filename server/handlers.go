@@ -46,7 +46,7 @@ func (server *Server) generateHandleWS(ctx context.Context, cancel context.Cance
 				closeReason, r.RemoteAddr, num, server.options.MaxConnection,
 			)
 
-			if server.options.Once {
+			if (server.options.Once) || (closeReason == "local command") {
 				cancel()
 			}
 		}()
