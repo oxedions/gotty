@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/nimbix/gotty/webtty"
+	"github.com/oxedions/gotty/webtty"
 )
 
 // Slave is webtty.Slave with some additional methods.
